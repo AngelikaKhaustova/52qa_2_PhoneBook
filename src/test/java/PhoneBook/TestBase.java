@@ -20,6 +20,8 @@ public class TestBase {
     @BeforeSuite
     public void beforeSuite() {
         //app.init();
+        System.out.println("test hook");
+        System.out.println("ffff");
     }
 
     @BeforeMethod
