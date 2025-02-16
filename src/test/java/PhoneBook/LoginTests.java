@@ -46,6 +46,7 @@ public class LoginTests extends TestBase {
         app.getUserHelper().typePassword(UserData.VALID_PASSWORD);
         app.getUserHelper().clickOnLoginButton();
         app.getUserHelper().checkLogin();
+        System.out.println("test ngrok");
     }
 
     @Test
